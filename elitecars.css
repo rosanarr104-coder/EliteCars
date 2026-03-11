@@ -1,0 +1,101 @@
+.cabeçalho {
+    background-color:orangered;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.img-header {
+    width: 100px;
+}
+
+.ul-lista li {
+    list-style: none;
+}
+
+.ul-lista {
+    display: flex;
+    gap:  20px;
+}
+
+.ul-lista li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.img-section-01 {
+    width: 500px;
+    
+}
+
+.section-01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    gap: 30px;
+}
+
+span {
+    color: orangered;
+    font-size: 40px;
+}
+
+.section-02 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.parágrafo-section-02 h2 {
+    font-size: 30px;
+    color: orangered;
+    text-transform: uppercase;
+
+}
+
+.parágrafo-section-02 p {
+    font-size: 20px;
+}
+
+.div-icon {
+    display: flex;
+    gap: 20px;
+
+}
+
+.section-03 {
+    background-image: url(koenigsegg-jesko-1024x708.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 350px;
+
+}
+
+.section-03 button {
+    padding: 7px;
+    width: 150;
+    background-color: white;
+    color: orangered;
+    font-weight: 800;
+    border: none;
+}
+

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Estilizando o Header */
 .cabeçalho {
     background-color:orangered;
     display: flex;
@@ -6,19 +9,23 @@
     padding: 30px;
 }
 
+/* Estilização da logo */
 .img-header {
     width: 100px;
 }
 
+/* Estilização da lista */
 .ul-lista li {
     list-style: none;
 }
 
+/* Estilização da UL (elemento pai da LI) */
 .ul-lista {
     display: flex;
     gap:  20px;
 }
 
+/* Aqui estamos estilixando a ÂNCORA */
 .ul-lista li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -26,7 +33,9 @@
     text-transform: uppercase;
     font-weight: 800;
 }
+/* FIM DO CABEÇALHO */
 
+/* SECTION-01 */
 .img-section-01 {
     width: 500px;
     
@@ -44,11 +53,16 @@
     gap: 30px;
 }
 
+/* texto em destaque da section-01 */
 span {
     color: orangered;
     font-size: 40px;
 }
+/* Fim da section-01 */
 
+
+/* /* Início section-02 */
+/* íconnes devem ser manipulados como textos (fonte-size, color) */
 .section-02 {
     display: flex;
     justify-content: center;
@@ -56,9 +70,10 @@ span {
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: white;
 }
+
 
 .parágrafo-section-02 h2 {
     font-size: 30px;
@@ -71,14 +86,14 @@ span {
     font-size: 20px;
 }
 
-.fa-facebook .div-icon {
+.div-icons {
     padding: 10px;
     font-size: 40px;
     align-items: center;
-    
-
+    color: orangered;
 }
 
+/* Início section-03 */
 .section-03 {
     background-image: url(koenigsegg-jesko-1024x708.jpg);
     background-repeat: no-repeat;
@@ -101,6 +116,7 @@ span {
     border: none;
 }
 
+/* Início section-04 */
 .section-04 div {
     width: 300px;
     height: 300px;
@@ -164,9 +180,10 @@ span {
     border: none;
 }
 
+/* Footer */
 footer {
     background-color: black;
-    color: gold;
+    color:orangered;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,7 +191,7 @@ footer {
 }
 
 footer .fa-github, .fa-x-twitter, .fa-square-instagram {
-    color: gold;
+    color: orangered;
     font-size: 40px;
 }
 

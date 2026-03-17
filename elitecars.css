@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
 
+*{ /* Estilização universal */
+    scroll-behavior: smooth; /* transição universal no scroll de rolagem */
+    font-family: 'Courier New', Courier, monospace; /* Família de fonte universal */
+    list-style: none; /* Removendo estilo de lista Universal */
+    margin: 0; /* Removendo os espaços laterais e superios */
+    padding: 0; /* Desabilitando preechimento aplicado por padrão */
+    
+}
+
 /* Estilizando o Header */
 .cabeçalho {
     background-color:orangered;
@@ -7,6 +16,11 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 30px;
+    position: sticky; /* faz com que o elemento fique grudado na tela quando o usuario rolar a tela */
+    top: 0; /* define que o elemento ficara preso ao top da tela (0px) de distancia da tela */
+    left: 0; /* define que o elemento à equerda da página, mantendo 0px de distançância */
+    z-index: 1; /* controla a sobreposição do elemento sobre outros elementos da página */
+    
 }
 
 /* Estilização da logo */
@@ -51,6 +65,16 @@
     padding: 50px;
     font-size: 20px;
     gap: 30px;
+
+}
+.div-01 img {
+    box-shadow: 10px 10px 20px rgb(248, 247, 247);
+    
+}
+
+.div-01 img:hover {
+    box-shadow: 15px 15px 25px rgb(248, 247, 247);
+    transition: 0.8s;
 }
 
 /* texto em destaque da section-01 */
@@ -116,6 +140,11 @@ span {
     border: none;
 }
 
+.btn {
+    background-color: red;
+    color: white;
+}
+
 /* Início section-04 */
 .section-04 div {
     width: 300px;
@@ -123,6 +152,13 @@ span {
     background-color: gray;
     padding: 15px;
     text-align: center;
+    box-shadow: 15px 15px 25px black;
+}
+
+.section-04 div:hover {
+    box-shadow: 20px 20px 30px black;
+    transition: 1,5s;
+
 }
 
 .section-04 {
@@ -131,14 +167,9 @@ span {
     justify-content: space-evenly;
     gap: 30px;
     padding: 60px;
+   
 }
 
-.caixa-02 {
-    background-image: url(porsche-20vision-20gt-20article-205.avif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .caixa-01 h2 {
     font-size: 90px;
@@ -159,12 +190,14 @@ span {
     color: gold;
 }
 
-.fa-github {
-    font-size: 70px;
-    font-weight: 700px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: black;
+
+
+.caixa-02 {
+    background-image: url(porsche-20vision-20gt-20article-205.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .caixa-03 p {
@@ -178,6 +211,10 @@ span {
     color: white;
     width: 130px;
     border: none;
+}
+
+.caixa-03 i {
+    font-size: 60px;
 }
 
 /* Footer */

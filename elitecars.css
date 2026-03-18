@@ -160,7 +160,7 @@ span {
     border: none;
 }
 
-.btn {
+.button:hover {
     background-color: red;
     color: white;
 }
